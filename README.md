@@ -1,14 +1,14 @@
-# Gemini Nano Banana 2.1代理API中转推荐_Catrouter中转API国内直连可试用稳定可靠的Gemini Nano Banana 2.1 API中转站
+# Gemini Nano Banana 2.1 中转站推荐：国内直连、可试用、2026 单价与接入方式
 
 > Gemini 3 家族的效率型图像模型（基于 Gemini 3.6 Flash）：1K/2K/4K 输出、最多十余张参考图、两万字符长提示。
 
 如果你希望在国内稳定、低延迟地调用 **Gemini Nano Banana 2.1**，又不想折腾网络环境、海外账号和复杂计费，那么 **CatRouter 中转API** 是一个值得优先考虑的选择。平台提供国内直连线路，兼容 OpenAI 标准协议与 Anthropic 原生 SDK，只需把 BaseURL 换成 `https://catrouter.net/v1`、Key 换成中转 Key，业务代码基本不用改。
 
-官方接入站点：[https://catrouter.net](https://catrouter.net)
+官方接入站点：[https://catrouter.net](https://catrouter.net)　｜　模型详情页：[Gemini Nano Banana 2.1 中转站说明](https://catrouter-net.github.io/catrouter-hub/models/gemini-nano-banana-2.1/)　｜　数据核对：2026-11-09
 
 ---
 
-## Gemini Nano Banana 2.1是什么？核心能力一览
+## Gemini Nano Banana 2.1 是什么：参数、跑分与版本
 
 Gemini Nano Banana 2.1 由 **Google DeepMind** 推出，发布时间 **2026年10月6日**，属于图像生成类模型。Gemini 3 家族的效率型图像模型（基于 Gemini 3.6 Flash）：1K/2K/4K 输出、最多十余张参考图、两万字符长提示。
 
@@ -32,7 +32,7 @@ Gemini Nano Banana 2.1 由 **Google DeepMind** 推出，发布时间 **2026年10
 
 ---
 
-## 国内调用 Gemini Nano Banana 2.1 的四大现实难题
+## 国内直连 Gemini Nano Banana 2.1 会遇到什么
 
 即便模型能力再强，国内开发者在真实项目里往往会先撞上这三堵墙：
 
@@ -52,13 +52,13 @@ Google AI Studio / Vertex 接口在国内直连困难，需要额外网络方案
 
 同系列模型名混乱（Nano Banana 2 / Pro / 2.1），接错版本效果差异明显。
 
-这正是「中转站」存在的意义：
+这也是「Gemini Nano Banana 2.1 中转站」存在的意义：
 
 > **Gemini Nano Banana 2.1 中转站 = 国内可直连的 API 转发服务**，你只拿中转地址 + 中转 Key，请求由平台安全转发到上游，返回原始响应。
 
 ---
 
-## 为什么选 CatRouter 中转API 做 Gemini Nano Banana 2.1 代理
+## Gemini Nano Banana 2.1 中转 API 怎么选：六条判断标准
 
 **1. 稳定优先，长任务不断线**
 
@@ -86,7 +86,7 @@ Google AI Studio / Vertex 接口在国内直连困难，需要额外网络方案
 
 ---
 
-## Gemini Nano Banana 2.1 中转站接入教程（3 分钟）
+## Gemini Nano Banana 2.1 国内直连怎么配（OpenAI 兼容 / Anthropic 原生）
 
 ### 第 1 步：拿地址与 Key
 
@@ -139,7 +139,7 @@ print(resp.data[0].url)
 
 ---
 
-## Gemini Nano Banana 2.1 适用场景
+## Gemini Nano Banana 2.1 适合什么场景
 
 - 品牌视觉与电商成套出图（主体一致性）。
 - 带长文案的海报、包装与信息图。
@@ -148,7 +148,7 @@ print(resp.data[0].url)
 
 ---
 
-## 常见问题 FAQ
+## 常见问题：Gemini Nano Banana 2.1 中转站哪个靠谱、多少钱、会不会限速
 
 **Q：Gemini Nano Banana 2.1 中转站哪个靠谱？**
 
@@ -166,15 +166,26 @@ A：官方口径约 10–14 张（随档位与端点不同），中转侧可用�
 
 A：短句、标题基本可直出，长段落建议拆分区块生成后再核对一遍。
 
+**Q：Gemini Nano Banana 2.1 中转 API 多少钱？会不会比官方贵很多？**
+
+A：中转按官方价乘倍率结算，贵出来的部分买的是线路与运维。控制台能看到每次调用的输入/输出 token 与单价，先小额跑一天真实流量再判断划不划算。
+
+**Q：国内直连 Gemini Nano Banana 2.1 会被限速吗？**
+
+A：取决于平台的线路与并发配额。多节点线路通常会给到明确的 RPM/TPM；单线平台在晚高峰容易 429。压测时连跑 20–50 次看 P95 延迟和失败率更靠谱。
+
 **Q：中转站和自建代理怎么选？**
 
 A：自建只适合有专职运维的团队，线路、扩容、故障切换、结算都要自己扛；多数团队用中转，省下的是人力与试错时间。
 
 ---
 
-## 相关长尾关键词
+## 延伸阅读
 
-Nano Banana 2.1 中转站、Gemini 图像模型 代理API 国内直连、Nano Banana 中转API 可试用、Gemini 3.6 Flash 图像 低价、AI 绘图 中转站 靠谱好用、Nano Banana 2.1 4K 出图、蒙版编辑 API 中转 稳定、Gemini 生图 免魔法 高并发、中文文字渲染 AI 图像 API、Google 图像模型 中转平台。
+- [Gemini Nano Banana 2.1 中转站说明（参数、单价、适用场景）](https://catrouter-net.github.io/catrouter-hub/models/gemini-nano-banana-2.1/)
+- [2026 年中转站怎么挑：五个能当场验证的指标](https://catrouter-net.github.io/catrouter-hub/guide/)
+- [模型价格测算：一个月大概花多少](https://catrouter-net.github.io/catrouter-hub/price/)
+- [三步接入与六个常见报错](https://catrouter-net.github.io/catrouter-hub/setup/)
 
-更多模型与接入文档见 [CatRouter 中转API](https://catrouter.net)，平台聚合 500+ 主流模型，支持按量计费、免费试用与统一账单。
+全部模型索引见 [CatRouter 模型导航](https://catrouter-net.github.io/catrouter-hub/)，官方站点 [https://catrouter.net](https://catrouter.net)。
 
